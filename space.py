@@ -6,6 +6,7 @@ import turtle
 import time
 import random
 
+
 def consoleOutput():
 #API wird wird nachgefragt und geladen
     url = 'http://api.open-notify.org/astros.json'
@@ -35,7 +36,7 @@ def getPosition():
 def createScreen() :
 
     screen = turtle.Screen()
-    screen.setup(800, 400)
+    screen.setup(720, 360)
     screen.setworldcoordinates(-180, -90, 180, 90)
     screen.bgpic('map.gif')
 
